@@ -6,13 +6,62 @@
     <title>아리따움</title>
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/index.css">
+    <!--플러그인 필수 css cdn 연결-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <!--플러그인 필수 JS cdn 연결-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./scripts/index.js" defer></script>
 </head>
 <body>
     <header>
-        <div class="top_wrap"></div>
-        <div class="bottom_wrap"></div>
+        <div class="top_wrap">
+            <h1><a href="#"><img src="./images/Rectangle 1.png" alt=""></a></h1>
+            <div class="search">
+                <span>한 눈에 모아보는 아리따움몰 이달의 특별 혜택</span>
+                <img src="./images/search.png" alt="">
+            </div>
+            <div class="right_menu">
+                <a href="#"><img src="./images/person.png" alt=""></a>
+                <a href="#"><img src="./images/favorite.png" alt=""></a>
+                <a href="#"><img src="./images/shopping_cart.png" alt=""></a>
+            </div>
+        </div>
+        <div class="bottom_wrap">
+            <a href="#"><img src="./images/dehaze.png" alt=""></a>
+            <div class="menu_wrap">
+                <a href="#">카테고리</a>
+                <a href="#">신제품</a>
+                <a href="#">이벤트</a>
+                <a href="#">브랜드관</a>
+                <a href="#">고객센터</a>
+            </div>
+        </div>
     </header>
-    <main></main>
+    <main>
+        <div class="swiper banner_container">
+            <div class="swiper-wrapper banner_wrap">
+                <a href="#" class="swiper-slide"><img src="./images/banner01.jpg" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="./images/banner02.jpg" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="./images/banner03.jpg" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="./images/banner04.jpg" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="./images/banner01.jpg" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="./images/banner02.jpg" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="./images/banner03.jpg" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="./images/banner01.jpg" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="./images/banner02.jpg" alt=""></a>
+            </div>
+            <div class="banner_btn">
+                <div class="swiper-scrollbar"></div>
+                <div class="swiper-pagination"></div>
+                <div class="arrow_wrap">
+                    <div class="swiper-button-prev"><img src="./images/arrow_back_ios_new.png" alt=""></div>
+                    <div class="swiper-button-next"><img src="./images/arrow_forward_ios.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </main>
     <footer></footer>
 </body>
 </html>

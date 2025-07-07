@@ -1,0 +1,44 @@
+/* -----------------------------------------------------------------헤더 */
+header {background:red; width:1620px; margin:0 auto;}
+header .top_wrap {display:flex; justify-content:space-between; align-items:center;}
+header .top_wrap h1 {}
+header .top_wrap h1 a {}
+header .top_wrap h1 a img {}
+header .top_wrap .search {
+    width:319px; height:40px; border:1px solid #F0427D; 
+    display:flex; align-items:center; justify-content:space-between;
+    padding:13px 20px;
+    background:yellow;
+}
+header .top_wrap .search span {font-size:0.75rem; font-weight:300; color:#aaa;}
+header .top_wrap .search img {}
+header .top_wrap .right_menu {display:flex; gap:20px;}
+header .top_wrap .right_menu a {}
+header .top_wrap .right_menu a img {}
+header .bottom_wrap {display:flex; gap:10px; align-items:center; margin-top:5px;}
+header .bottom_wrap a {}
+header .bottom_wrap a img {}
+header .bottom_wrap .menu_wrap {display:flex; gap:30px; align-items:center;}
+header .bottom_wrap .menu_wrap a {}
+/* -----------------------------------------------------------------메인 */
+/* -------------------------swiper */
+main {}
+main .banner_container {}
+main .banner_container .banner_wrap {display:flex;}
+main .banner_container .banner_wrap a {background:blue; width:500px; height:700px;}
+main .banner_container .banner_wrap a:nth-child(1) {}
+main .banner_container .banner_wrap a img {width:100%; height:100%;}
+main .banner_container .banner_btn {
+    position:relative; background:yellow; width:1060px; height:50px;
+    display:flex; align-items:center; margin:50px auto 0; flex-direction:row-reverse;
+    ;
+}
+main .banner_container .banner_btn .swiper-scrollbar {width:900px;}
+main .banner_container .banner_btn .swiper-pagination {position:absolute; background:pink; width:max-content;}
+main .banner_container .banner_btn .arrow_wrap {width:50px;}
+main .banner_container .banner_btn .arrow_wrap .swiper-button-next {background:red; width:20px; height:20px;}
+main .banner_container .banner_btn .arrow_wrap .swiper-button-next:after {display:none !important;}
+main .banner_container .banner_btn .arrow_wrap .swiper-button-next img {display:block;}
+main .banner_container .banner_btn .arrow_wrap .swiper-button-prev {width:20px; height:20px;}
+main .banner_container .banner_btn .arrow_wrap .swiper-button-prev:after {display:none !important;}
+main .banner_container .banner_btn .arrow_wrap .swiper-button-prev img {display:block;}
