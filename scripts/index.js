@@ -1,30 +1,10 @@
 const wishListBtn = document.querySelectorAll('main .wishlist_plus');
-wishListBtn.forEach((obj)=>{
-    obj.addEventListener('click',()=>{
-        const img = obj.querySelector('img');/* 버튼 안의 이미지 */
-
-        if(img.src.includes('favorite-2.png')){
-            img.src = './images/favorite-1.png';
-        }else{
-            img.src = './images/favorite-2.png';
-        }
-    })
-})
-console.log(wishListBtn)
-
-
-
-
-
-
-
-
-
 /* swiper */
 const bnr = new Swiper('.banner_container',{
     slidesPerView:'3.5',
     spaceBetween:20,
     loop:true,
+    autoplay:{delay:2000},
     pagination: {
         el: ".swiper .banner_btn .arrow_wrap .swiper-pagination",
         type: "fraction",
@@ -46,3 +26,38 @@ const newProduct = new Swiper('.new_container .new_product_container',{
         nextEl: ".new_container .swiper-button-next",
     },
 })
+
+/* 뉴 카테고리 js */
+const newCategory = document.querySelectorAll('main .new_container .category li')
+/* li를 가져오고 li의 인덱스가 현재 인덱스랑 같으면 active 클래스를 붙여준다. */
+function updateNewCategory(index){
+    newCategory.forEach((obj, idx)=>{
+        obj.classList.toggle('active1',idx === index);
+    })
+}
+newProduct.on('slideChange',()=>{
+    updateNewCategory(newProduct.activeIndex);
+})
+newCategory.forEach((li, i) => {
+    li.addEventListener('click', () => {
+        newProduct.slideTo(i);
+        updateBestCategory(i);
+    });
+});
+updateNewCategory(newProduct.activeIndex);
+console.log(newCategory)
+
+
+/* 위시리스트 */
+wishListBtn.forEach((obj)=>{
+    obj.addEventListener('click',()=>{
+        const img = obj.querySelector('img');/* 버튼 안의 이미지 */
+
+        if(img.src.includes('favorite-2.png')){
+            img.src = './images/favorite-1.png';
+        }else{
+            img.src = './images/favorite-2.png';
+        }
+    })
+})
+console.log(wishListBtn)

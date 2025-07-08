@@ -62,6 +62,31 @@ main .new_container h2 {font-size:2rem; font-weight:500;}
 main .new_container .new_category_more {display:flex; justify-content:space-between;  margin:30px 0 40px;}
 main .new_container .new_category_more .category {display:flex; gap:40px;}
 main .new_container .new_category_more .category li {}
+main .new_container .new_category_more ul .active1{
+    
+}
+main .new_container .new_category_more ul .active1 button {
+    font-size:1.25rem !important;
+}
+
+.new_category_more .category li {
+    position: relative;
+}
+
+.new_category_more .category li.active1::after {
+    content: '';
+    background:url(../images/Rectangle\ 52.png);
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    z-index:-1;
+}
+
+
+
+
 main .new_container .new_category_more .category li button {font-size:0.938rem; font-weight:500;}
 main .new_container .new_category_more .a {}
 main .new_container .new_category_more .a img {}
@@ -87,12 +112,16 @@ main .new_container .new_product_container .new_product_all_wrap .new_product_wr
     width:250px; position:relative;
     border:1px solid #eee;
 }
+main .new_container .new_product_container .new_product_all_wrap .new_product_wrap .new_product:hover {border:1px solid #F0427D;}
 main .new_container .new_product_container .new_product_all_wrap .new_product_wrap .new_product .new_photo {display:block;}
 main .new_container .new_product_container .new_product_all_wrap .new_product_wrap .new_product .new_photo img {display:block;  width:100%; height:250px;}
 main .new_container .new_product_container .new_product_all_wrap .new_product_wrap .new_product .wishlist_plus {position:absolute; top:220px; right:10px;}
 main .new_container .new_product_container .new_product_all_wrap .new_product_wrap .new_product .wishlist_plus img {display:block;}
 /* 상품 안 정보 */
-main .new_container .new_product_container .new_product_all_wrap .new_product_wrap .new_product .new_product_content {padding:15px; display:flex; flex-flow:column nowrap;}
+main .new_container .new_product_container .new_product_all_wrap .new_product_wrap .new_product .new_product_content {
+    padding:15px; display:flex; flex-flow:column nowrap;
+    border-top:1px solid #eee;
+}
 main .new_container .new_product_container .new_product_all_wrap .new_product_wrap .new_product .new_product_content .product_brand {font-size:0.688rem;}
 main .new_container .new_product_container .new_product_all_wrap .new_product_wrap .new_product .new_product_content .product_name {
     font-size:0.938rem; font-weight:500;
