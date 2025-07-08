@@ -141,3 +141,55 @@ main .new_container .new_product_container .new_product_all_wrap .new_product_wr
     margin-right:7px;
 }
 main .new_container .new_product_container .new_product_all_wrap .new_product_wrap .new_product .new_product_content .star .review_count {font-size:0.688rem; font-weight:500;}
+/* -------------------------3행 이벤트혜택 */
+main .month_benefit {padding:60px 0; background:#f8f8f8;}
+main .month_benefit .month_container {
+    width:1620px; margin:0 auto; 
+    display:flex; justify-content:space-between; align-items:end;
+}
+main .month_benefit .month_container .month_left {}
+main .month_benefit .month_container .month_left img {}
+main .month_benefit .month_container .month_right {}
+main .month_benefit .month_container .month_right > p {font-size:1.5rem;}
+main .month_benefit .month_container .month_right .month_more {
+    margin:30px 0 40px; display:flex; justify-content:space-between;
+    align-items:end;
+}
+main .month_benefit .month_container .month_right .month_more h2 {font-size:2.125rem; font-weight:600;}
+main .month_benefit .month_container .month_right .month_more h2 span {font-weight:600; color:#F0427D;}
+main .month_benefit .month_container .month_right .month_more a {}
+main .month_benefit .month_container .month_right .month_more a img {}
+main .month_benefit .month_container .month_right .benefit_list {display:flex; gap:30px;}
+main .month_benefit .month_container .month_right .benefit_list .benefit_wrap {background:#fff;}
+main .month_benefit .month_container .month_right .benefit_list .benefit_wrap .benefit_photo {}
+main .month_benefit .month_container .month_right .benefit_list .benefit_wrap .benefit_photo img {display:block;}
+main .month_benefit .month_container .month_right .benefit_list .benefit_wrap .benefit_content {padding:15px; border-top:1px solid #eee;}
+main .month_benefit .month_container .month_right .benefit_list .benefit_wrap .benefit_content .product_name {
+    font-size:0.875rem; font-weight:500;
+}
+main .month_benefit .month_container .month_right .benefit_list .benefit_wrap .benefit_content .benefit_before {
+    display:flex; margin:30px 0 3px; gap:40px;
+}
+main .month_benefit .month_container .month_right .benefit_list .benefit_wrap .benefit_content .benefit_before p {}
+main .month_benefit .month_container .month_right .benefit_list .benefit_wrap .benefit_content .benefit_before p:nth-child(1) {
+    color:#aaa; font-size:0.875rem;
+}
+main .month_benefit .month_container .month_right .benefit_list .benefit_wrap .benefit_content .benefit_before p:nth-child(2) {
+    font-weight:800;
+}
+main .month_benefit .month_container .month_right .benefit_list .benefit_wrap .benefit_content .benefit_before p:nth-child(2) del {
+    color:#aaa; font-size:0.875rem;
+}
+main .month_benefit .month_container .month_right .benefit_list .benefit_wrap .benefit_content .sale_star_wrap {
+    display:flex; justify-content:space-between;
+}
+main .month_benefit .month_container .month_right .benefit_list .benefit_wrap .benefit_content .sale_star_wrap .benefit_sale {
+    display:flex; gap:40px;
+}
+main .month_benefit .month_container .month_right .benefit_list .benefit_wrap .benefit_content .sale_star_wrap .benefit_sale p {
+    color:#F0427D; font-weight:800;
+}
+main .month_benefit .month_container .month_right .benefit_list .benefit_wrap .benefit_content .sale_star_wrap .benefit_sale p:nth-child(1) {}
+main .month_benefit .month_container .month_right .benefit_list .benefit_wrap .benefit_content .sale_star_wrap .benefit_sale p:nth-child(2) {}
+main .month_benefit .month_container .month_right .benefit_list .benefit_wrap .benefit_content .sale_star_wrap a {font-size:0.688rem; display:flex; align-items:center;}
+main .month_benefit .month_container .month_right .benefit_list .benefit_wrap .benefit_content .sale_star_wrap a img {display:block;}
