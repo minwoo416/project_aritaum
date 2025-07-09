@@ -18,12 +18,20 @@ const bnr = new Swiper('.banner_container',{
         hide: false,
     },
 })
-
+/* 뉴 스와이퍼 */
 const newProduct = new Swiper('.new_container .new_product_container',{
     slidesPerView:1,
     navigation: {
         prevEl: ".new_container .swiper-button-prev",
         nextEl: ".new_container .swiper-button-next",
+    },
+})
+/* 카테고리스와이퍼 */
+const cateProduct = new Swiper('.category_container .cate_product_container',{
+    slidesPerView:1,
+    navigation: {
+        prevEl: ".category_container .swiper-button-prev",
+        nextEl: ".category_container .swiper-button-next",
     },
 })
 
@@ -47,6 +55,25 @@ newCategory.forEach((li, i) => {
 updateNewCategory(newProduct.activeIndex);
 console.log(newCategory)
 
+/* 카테고리 카테고리 js */
+const cateCategory = document.querySelectorAll('main .category_container .category li')
+/* li를 가져오고 li의 인덱스가 현재 인덱스랑 같으면 active 클래스를 붙여준다. */
+function updateCateCategory(index){
+    cateCategory.forEach((obj, idx)=>{
+        obj.classList.toggle('active2',idx === index);
+    })
+}
+cateProduct.on('slideChange',()=>{
+    updateCateCategory(cateProduct.activeIndex);
+})
+cateCategory.forEach((li, i) => {
+    li.addEventListener('click', () => {
+        cateProduct.slideTo(i);
+        updateCateCategory(i);
+    });
+});
+updateCateCategory(cateProduct.activeIndex);
+console.log(cateCategory)
 
 /* 위시리스트 */
 wishListBtn.forEach((obj)=>{
