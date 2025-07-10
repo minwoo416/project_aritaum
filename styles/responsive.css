@@ -1,0 +1,57 @@
+@media screen and (max-width:1439px){
+    /* 1행 헤더 */
+    header {max-width:1239px; margin:0 auto;}
+    /* 2행 뉴 */
+    main .new_container {max-width:1239px; margin:0 auto;}
+    main .new_container h2 {font-size:1.75rem;}
+    main .new_container .new_category_more ul .active1 button {font-size:1.125rem !important;}
+    main .new_container .new_product_container .new_product_all_wrap .new_product_wrap .new_product:nth-child(5),
+    main .new_container .new_product_container .new_product_all_wrap .new_product_wrap .new_product:nth-child(6) {display:none;}
+    main .arrow_wrap {display:none;}
+    main .arrow_wrap * {display:none;}
+    main .banner_container .banner_btn .arrow_wrap .swiper-pagination {display:none;}
+    /* 3행 이벤트 */
+    main .month_benefit .month_container {max-width:1239px; margin:0 auto;}
+    main .month_benefit .month_container .month_right .benefit_list .benefit_wrap:last-child {display:none;}
+    main .month_benefit .month_container .month_right .benefit_list .benefit_wrap .benefit_photo img {width:250px; height:250px;}
+    /* 4행 카테고리 */
+    main .category_container {max-width:1239px; margin:0 auto;}
+    main .category_container h2 {font-size:1.75rem;}
+    main .category_container .cate_category_more ul .active2 button {font-size:1.125rem !important;}
+    main .category_container .cate_product_container .cate_product_all_wrap .cate_product_wrap .cate_product:nth-child(5),
+    main .category_container .cate_product_container .cate_product_all_wrap .cate_product_wrap .cate_product:nth-child(6) {display:none;}
+    /* 5행 브랜드 */
+    main .brand_container {max-width:1239px; margin:0 auto;}
+    main .brand_container .brand_list .brand_wrap .brand_left img {width:600px; height:700px;}
+    main .brand_container .brand_list .brand_wrap .brand_right .brand_product_wrap .brand_product:last-child {display:none;}
+    /* 풋터 */
+    footer {background:#fcfcfc; padding:30px 100px; margin-top:150px;}
+}
+@media screen and (max-width:799px){
+    /* 1향 헤더 */
+    header {max-width:699px; margin:0 auto;}
+    header .top_wrap .right_menu a:last-child {display:block;}
+    header .bottom_wrap {display:none;}
+    /* 배너 */
+    main .banner_container .banner_wrap a img {width:350px; height:500px;}
+    main .banner_container .banner_btn {width:500px;}
+    main .banner_container .banner_btn .swiper-scrollbar {width:500px;}
+    /* 뉴 */
+    main .new_container {width:699px; margin:0 auto;}
+    main .new_container h2 {font-size:1.563rem;}
+    main .new_container .new_product_container .new_product_all_wrap .new_product_wrap {flex-flow:row wrap; justify-content:space-around; gap:50px;}
+    /* 이벤트 */
+    main .month_benefit .month_container {}
+    main .month_benefit .month_container .month_right { margin:0 auto;}
+    main .month_benefit .month_container .month_left {display:none;}
+    /* 카테고리 */
+    main .category_container {width:699px; margin:0 auto;}
+    main .category_container h2 {font-size:1.75rem;}
+    main .category_container .cate_product_container .cate_product_all_wrap .cate_product_wrap {flex-flow:row wrap; justify-content:space-around; gap:50px;}
+    main .category_container .cate_category_more .category {display:flex; flex-flow:row wrap; gap:40px;}
+    /* 브랜드 */
+    main .brand_container {display:none;}
+    /* 풋터 */
+    footer .footer_mid .footer_left {display:none;}
+    footer .footer_bottom {display:none;}
+}

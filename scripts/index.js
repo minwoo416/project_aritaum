@@ -1,7 +1,7 @@
 const wishListBtn = document.querySelectorAll('main .wishlist_plus');
 /* swiper */
 const bnr = new Swiper('.banner_container',{
-    slidesPerView:'3.5',
+    slidesPerView:3.5,
     spaceBetween:20,
     loop:true,
     autoplay:{delay:2000},
@@ -17,6 +17,23 @@ const bnr = new Swiper('.banner_container',{
         el: ".swiper .banner_btn .swiper-scrollbar",
         hide: false,
     },
+
+
+    breakpoints: {
+        1440: {
+        slidesPerView:3.5,
+        spaceBetween: 20
+        },
+        780: {
+            slidesPerView: 2.5,
+            spaceBetween: 20
+        },
+        320: {
+            slidesPerView: 2,
+            spaceBetween: 20
+        }
+    }
+
 })
 /* 뉴 스와이퍼 */
 const newProduct = new Swiper('.new_container .new_product_container',{
