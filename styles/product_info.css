@@ -1,0 +1,64 @@
+main {padding-top:50px;}
+main .product_container {display:flex; width:1220px; margin:0 auto; background:aqua; justify-content:space-between;}
+main .product_container .product_left {}
+main .product_container .product_left .big_thum {}
+main .product_container .product_left .big_thum img {display:block; border:1px solid #d9d9d9;}
+main .product_container .product_left .small_thum_wrap {display:flex; }
+main .product_container .product_left .small_thum_wrap img {display:block; border:1px solid #d9d9d9;}
+main .product_container .product_right {width:620px;}
+main .product_container .product_right .product_name {}
+main .product_container .product_right .product_name a {font-size:0.75rem; color:#aaa;}
+main .product_container .product_right .product_name a img {margin-left:2px;}
+main .product_container .product_right .product_name h2 {font-size:1.625rem; font-weight:500; margin:20px 0 30px;}
+main .product_container .product_right .product_name .price_icon_wrap {
+    display:flex; justify-content:space-between; align-items:center;
+}
+main .product_container .product_right .product_name .price_icon_wrap .price_wrap {display:flex; gap:15px; align-items:center;}
+main .product_container .product_right .product_name .price_icon_wrap .price_wrap .sale {font-size:1.25rem; font-weight:500; color:#F0427D;}
+main .product_container .product_right .product_name .price_icon_wrap .price_wrap .price {font-size:1.25rem; font-weight:500;}
+main .product_container .product_right .product_name .price_icon_wrap .price_wrap .before {}
+main .product_container .product_right .product_name .price_icon_wrap .price_wrap .before del {font-size:0.938rem; color:#aaa; display:block;}
+main .product_container .product_right .product_name .price_icon_wrap .wishlist_plus_share {display:flex; align-items:center; gap:13px;}
+main .product_container .product_right .product_name .price_icon_wrap .wishlist_plus_share .wishlist_plus {display:block;}
+main .product_container .product_right .product_name .price_icon_wrap .wishlist_plus_share .share {display:block;}
+main .product_container .product_right .product_name .star_wrap {display:flex; gap:10px;  align-items:center;}
+main .product_container .product_right .product_name .star_wrap .star_count {display:flex; align-items:center;}
+main .product_container .product_right .product_name .star_wrap .star_count .star_img {display:flex; align-items:center;}
+main .product_container .product_right .product_name .star_wrap .star_count .star_img img {display:block;}
+main .product_container .product_right .product_name .star_wrap .star_count p {font-size:0.75rem; font-weight:300;}
+main .product_container .product_right .product_name .star_wrap .review_count {font-size:0.75rem; color:#aaa;}
+main .product_container .product_right .product_benefit {}
+main .product_container .product_right .product_benefit dl {display:grid; grid-template-columns: 100px 1fr;}
+main .product_container .product_right .product_benefit dl dt {width:100px;}
+main .product_container .product_right .product_benefit dl dt:nth-of-type(1) { grid-column: 1;background:red; }
+main .product_container .product_right .product_benefit dl dt:nth-of-type(2) { grid-column: 1; }
+main .product_container .product_right .product_benefit dl dt:nth-of-type(3) { grid-column: 1; background:blue; }
+main .product_container .product_right .product_benefit dl dt:nth-of-type(2) {}
+main .product_container .product_right .product_benefit dl dd { grid-column:2;}
+main .product_container .product_right .product_benefit dl dd:nth-of-type(1) {}
+main .product_container .product_right .product_benefit dl dd a {}
+main .product_container .product_right .product_benefit dl dd .main_title {}
+main .product_container .product_right .product_benefit dl dd img {}
+main .product_container .product_right .product_benefit dl dd .sub_title {}
+main .product_container .product_right .product_benefit dl dd .sub_title .span_blue {}
+main .product_container .product_right .product_benefit dl dd .sub_title .span_pink {}
+main .product_container .product_right .product_benefit dl dd .sub_title .button {}
+main .product_container .product_right .product_benefit dl dd .sub_title .button img {}
+main .product_container .product_right .product_buy_wrap {clear:both;}
+main .product_container .product_right .product_buy_wrap .user_order {}
+main .product_container .product_right .product_buy_wrap .user_order .user_num {}
+main .product_container .product_right .product_buy_wrap .user_order .user_num .count_btn {}
+main .product_container .product_right .product_buy_wrap .user_order .user_num .count_btn #minus {}
+main .product_container .product_right .product_buy_wrap .user_order .user_num .count_btn input {}
+main .product_container .product_right .product_buy_wrap .user_order .user_num .count_btn #plus {}
+main .product_container .product_right .product_buy_wrap .user_order .user_num p {}
+main .product_container .product_right .product_buy_wrap .user_order .user_all_num {}
+main .product_container .product_right .product_buy_wrap .user_order .user_all_num .all_count {}
+main .product_container .product_right .product_buy_wrap .user_order .user_all_num .all_count span {}
+main .product_container .product_right .product_buy_wrap .user_order .user_all_num .all_price {}
+main .product_container .product_right .product_buy_wrap .user_order .user_all_num .all_price span {}
+main .product_container .product_right .product_buy_wrap .user_buy_btn_wrap {}
+main .product_container .product_right .product_buy_wrap .user_buy_btn_wrap #gift {}
+main .product_container .product_right .product_buy_wrap .user_buy_btn_wrap #gift img {}
+main .product_container .product_right .product_buy_wrap .user_buy_btn_wrap #cart_go {}
+main .product_container .product_right .product_buy_wrap .user_buy_btn_wrap #buy_go {}
