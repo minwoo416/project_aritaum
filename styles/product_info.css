@@ -114,7 +114,7 @@ main .product_info_container .change_content .info {
 /* 상품정보 */
 main .product_info_container .change_content .info img {width:100;}
 /* 상품리뷰 */
-main .product_info_container .change_content .review {width:1220px; margin:0 auto; background:aqua;}
+main .product_info_container .change_content .review {width:1220px; margin:0 auto;}
 main .product_info_container .change_content .review .review_title {display:flex; justify-content:space-between;}
 main .product_info_container .change_content .review .review_title h3 {font-size:1.5rem;}
 main .product_info_container .change_content .review .review_title a {font-size:0.75rem; font-weight:300;}
@@ -132,7 +132,7 @@ main .product_info_container .change_content .review .user_review .review_sortin
 }
 main .product_info_container .change_content .review .user_review .review_sorting_wrap .review_sorting {display:flex; gap:50px;}
 main .product_info_container .change_content .review .user_review .review_sorting_wrap .review_sorting li {}
-main .product_info_container .change_content .review .user_review .review_sorting_wrap .review_search_wrap {background:red; position:relative;}
+main .product_info_container .change_content .review .user_review .review_sorting_wrap .review_search_wrap {position:relative;}
 main .product_info_container .change_content .review .user_review .review_sorting_wrap .review_search_wrap img {position:absolute; left:15px; top:7px;}
 main .product_info_container .change_content .review .user_review .review_sorting_wrap .review_search_wrap input {
     font-size:0.688rem;
@@ -141,7 +141,7 @@ main .product_info_container .change_content .review .user_review .review_sortin
 }
 main .product_info_container .change_content .review .user_review .review_list {}
 main .product_info_container .change_content .review .user_review .review_list .review_container {
-    background:yellow; display:flex; align-items:center; justify-content:space-between;
+    display:flex; align-items:center; justify-content:space-between;
     padding:20px 0;
 }
 main .product_info_container .change_content .review .user_review .review_list .review_container .review_left {text-align:center;}
@@ -152,12 +152,13 @@ main .product_info_container .change_content .review .user_review .review_list .
 main .product_info_container .change_content .review .user_review .review_list .review_container .review_left .user_info {font-size:0.875rem; color:#949494;}
 main .product_info_container .change_content .review .user_review .review_list .review_container .review_left .user_info span {}
 main .product_info_container .change_content .review .user_review .review_list .review_container .review_content {
-    background:red; width:700px; display:flex;
-    flex-flow:column nowrap; gap:50px;
+    width:700px; 
 }
 main .product_info_container .change_content .review .user_review .review_list .review_container .review_content p {}
 main .product_info_container .change_content .review .user_review .review_list .review_container .review_content .date {font-size:0.875rem;}
-main .product_info_container .change_content .review .user_review .review_list .review_container .review_content .user_content {font-size:0.875rem;}
+main .product_info_container .change_content .review .user_review .review_list .review_container .review_content .user_content {
+    font-size:0.875rem; margin:50px 0;
+}
 main .product_info_container .change_content .review .user_review .review_list .review_container .review_content .help_container {
     display:flex; justify-content:space-between; align-items:center;
 }
@@ -180,8 +181,48 @@ main .product_info_container .change_content .review .user_review .review_list .
 main .product_info_container .change_content .review .user_review .review_list .review_container .review_content .help_container .help_wrap .help_bad .count {font-size:0.625rem; font-weight:700;}
 main .product_info_container .change_content .review .user_review .review_list .review_container .review_content .help_container .review_option {}
 main .product_info_container .change_content .review .user_review .review_list .review_container .review_content .help_container .review_option img {}
-main .product_info_container .change_content .review .user_review .review_list .review_container .review_content .star_wrap {display:flex;}
+main .product_info_container .change_content .review .user_review .review_list .review_container .review_content .star_wrap {
+    display:flex; margin-top:15px;
+}
 main .product_info_container .change_content .review .user_review .review_list .review_container .review_content .star_wrap img {}
-main .product_info_container .change_content .review .user_review .review_list .review_container .review_right {}
-main .product_info_container .change_content .review .user_review .review_list .review_container .review_right img {}
-main .product_info_container .change_content .review .user_review .review_list .review_container .review_right img span {}
+main .product_info_container .change_content .review .user_review .review_list .review_container .review_right {
+    position:relative;
+}
+main .product_info_container .change_content .review .user_review .review_list .review_container .review_right img {display:block;}
+main .product_info_container .change_content .review .user_review .review_list .review_container .review_right  span {
+    position:absolute; right:0; bottom:0;
+    padding:10px; background:#949494; display:block;
+    border-top-left-radius:10px;
+    border-bottom-right-radius:10px;
+    color:#fff;
+}
+/* 공통 페이지 버튼 */
+main .product_info_container .change_content .page_btn {
+    display:flex; gap:10px; margin:0 auto;
+    width:max-content; margin-top:20px;
+}
+main .product_info_container .change_content .page_btn button {
+    width:30px; height:30px;
+}
+main .product_info_container .change_content .page_btn button:first-child {color:#F0427D; border:1px solid #F0427D;}
+main .product_info_container .change_content .qna {background:red; width:1220px; margin:0 auto;}
+main .product_info_container .change_content .qna > button {}
+main .product_info_container .change_content .qna .product_qa_list {display:flex; flex-flow:column nowrap; gap:50px;}
+main .product_info_container .change_content .qna .product_qa_list .product_wrap {
+    display:flex; justify-content:space-between; align-items:center;
+    height:50px; text-align:center;
+}
+main .product_info_container .change_content .qna .product_qa_list .product_wrap p {}
+main .product_info_container .change_content .qna .product_qa_list .product_wrap .answer {
+    width:100px;
+    padding:7px 15px; font-size:0.75rem;
+    background:#fff; color:#000; border:1px solid #F0427D;
+}
+main .product_info_container .change_content .qna .product_qa_list .product_wrap .answer_clear {
+    color:#fff; background:#F0427D;
+    font-size:0.75rem; width:100px;
+    padding:7px 15px;
+}
+main .product_info_container .change_content .qna .product_qa_list .product_wrap .question {width:250px; text-align:left;}
+main .product_info_container .change_content .qna .product_qa_list .product_wrap p:nth-child(3),
+main .product_info_container .change_content .qna .product_qa_list .product_wrap p:nth-child(4) {}
