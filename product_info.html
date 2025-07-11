@@ -80,18 +80,18 @@
                         <dt>배송정보</dt>
                         <dd>
                             <span class="main_title">일반배송</span>
-                            <img src="./images/Line 7.png" alt="">
+                            <img src="./images/Line.png" alt="">
                             <span class="sub_title">2,500원 (2만원 이상 무료배송)</span>
                         </dd>
                         <dt>구매 혜택</dt>
                         <dd>
                             <span class="main_title">뷰티포인트</span>
-                            <img src="./images/Line 7.png" alt="">
+                            <img src="./images/Line.png" alt="">
                             <span class="sub_title">최대 <span class="span_blue">810P</span>적립<button type="button"><img src="./images/help.png" alt=""></button></span>
                         </dd>
                         <dd>
                             <span class="main_title">아리따움 슈퍼클럽</span>
-                            <img src="./images/Line 7.png" alt="">
+                            <img src="./images/Line.png" alt="">
                             <span class="sub_title">최대 <span class="span_pink">5%</span>추가할인<button type="button"><img src="./images/help.png" alt=""></button></span>
                         </dd>
                         <dt>결제 혜택</dt>
@@ -117,8 +117,10 @@
                     </div>
                     <div class="user_buy_btn_wrap">
                         <button type="button" id="gift"><img src="./images/gifts.png" alt="선물하기"></button>
-                        <button type="button" id="cart_go">장바구니</button>
-                        <button type="button" id="buy_go">구매하기</button>
+                        <div class="user_btn_cart_buy">
+                            <button type="button" id="cart_go">장바구니</button>
+                            <button type="button" id="buy_go">구매하기</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -126,11 +128,95 @@
         <!-- 제품 정보,리뷰등등 총 그룹 -->
         <div class="product_info_container">
             <!-- 제품 버튼 -->
-            <div class="product_btn_wrap"></div>
+            <div class="product_btn_wrap">
+                <button type="button" class="product_info_btn">상품정보</button>
+                <button type="button" class="product_review_btn">상품리뷰</button>
+                <button type="button" class="product_qa_btn">상품문의</button>
+                <button type="button" class="product_as_btn">배송/교환/환불/반품 안내</button>
+            </div>
             <!-- 버튼 클릭 시 체인지되는 내용들 -->
             <div class="change_content">
-                <div class="info"></div>
-                <div class="review"></div>
+                <div class="info">
+                    <img src="./images/product_info01.jpg" alt="">
+                    <img src="./images/product_info02.jpg" alt="">
+                    <img src="./images/product_info03.jpg" alt="">
+                    <img src="./images/product_info04.jpg" alt="">
+                    <img src="./images/product_info05.jpg" alt="">
+                </div>
+                <div class="review">
+                    <div class="review_title">
+                        <h3>REVIEW</h3>
+                        <a href="#">전체 리뷰보기</a>
+                    </div>
+                    <div class="photo_review">
+                        <div class="photo_review_title">
+                            <h4>포토</h4>
+                            <a href="#">전체보기</a>
+                        </div>
+                        <dic class="photo_review_wrap">
+                            <a href="#"><img src="./images/photo01.jpg" alt=""></a>
+                            <a href="#"><img src="./images/photo02.jpg" alt=""></a>
+                            <a href="#"><img src="./images/photo03.jpg" alt=""></a>
+                            <a href="#"><img src="./images/photo04.jpg" alt=""></a>
+                            <a href="#"><img src="./images/photo05.jpg" alt=""></a>
+                            <a href="#"><img src="./images/photo01.jpg" alt=""></a>
+                            <a href="#"><img src="./images/photo02.jpg" alt=""></a>
+                        </dic>
+                    </div>
+                    <div class="user_review">
+                        <div class="review_sorting_wrap">
+                            <ul class="review_sorting">
+                                <li>베스트순</li>
+                                <li>최신순</li>
+                                <li>별점높은순</li>
+                                <li>별점낮은순</li>
+                            </ul>
+                            <div class="review_search_wrap">
+                                <img src="./images/review_search.png" alt="">
+                                <input type="text" placeholder="리뷰 키워드 검색하기">
+                            </div>
+                        </div>
+                        <div class="review_list">
+                            <div class="review_container">
+                                <div class="review_left">
+                                    <p class="user_photo"><img src="./images/user_photo01.png" alt=""></p>
+                                    <p class="user_name">SAD**********</p>
+                                    <p class="user_info"><sapn>30대/건성/여름쿨톤</sapn></p>
+                                </div>
+                                <div class="review_content">
+                                    <p class="date">2025.06.18</p>
+                                    <p class="user_content">제가 이거 써봤는데 일단 사용감 진짜 대박 좋아요 너무 만족해서 사용해서 친구들한테도 선물할 예정이에요<br>꼭 한번 사용해보세요 !!</p>
+                                    <div class="help_container">
+                                        <div class="help_wrap">
+                                            <div class="help_good">
+                                                <img src="./images/good.png" alt="">
+                                                <span>도움돼요</span>
+                                                <span class="count">180</span>
+                                            </div>
+                                            <div class="help_bad">
+                                                <img src="./images/bad.png" alt="">
+                                                <span>도움안돼요</span>
+                                                <span class="count">0</span>
+                                            </div>
+                                        </div>
+                                        <p class="review_option"><img src="./images/option.png" alt=""></p>
+                                    </div>
+                                    <div class="star_wrap">
+                                        <img src="./images/star.png" alt="">
+                                        <img src="./images/star.png" alt="">
+                                        <img src="./images/star.png" alt="">
+                                        <img src="./images/star.png" alt="">
+                                        <img src="./images/star.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="review_right">
+                                    <img src="./images/photo01.jpg" alt="">
+                                    <span>+ 3</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="qna"></div>
                 <div class="announcement"></div>
             </div>
