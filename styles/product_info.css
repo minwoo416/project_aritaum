@@ -207,7 +207,7 @@ main .product_info_container .change_content .page_btn button {
 main .product_info_container .change_content .page_btn button:first-child {color:#F0427D; border:1px solid #F0427D;}
 main .product_info_container .change_content .qna {background:red; width:1220px; margin:0 auto;}
 main .product_info_container .change_content .qna > button {}
-main .product_info_container .change_content .qna .product_qa_list {display:flex; flex-flow:column nowrap; gap:50px;}
+main .product_info_container .change_content .qna .product_qa_list {display:flex; flex-flow:column nowrap; gap:50px; clear:both;}
 main .product_info_container .change_content .qna .product_qa_list .product_wrap {
     display:flex; justify-content:space-between; align-items:center;
     height:50px; text-align:center;
@@ -226,3 +226,22 @@ main .product_info_container .change_content .qna .product_qa_list .product_wrap
 main .product_info_container .change_content .qna .product_qa_list .product_wrap .question {width:250px; text-align:left;}
 main .product_info_container .change_content .qna .product_qa_list .product_wrap p:nth-child(3),
 main .product_info_container .change_content .qna .product_qa_list .product_wrap p:nth-child(4) {}
+main .product_info_container .change_content .qna > button {
+    background:#F0427D; padding:7px 15px; float:right; margin:10px 0 20px; display:block;
+    color:#fff;
+}
+main .product_info_container .change_content .qna  .qa_page_btn {clear:both;}
+main .product_info_container .change_content .announcement {
+    width:1220px; margin:0 auto; background:aqua;
+}
+main .product_info_container .change_content .announcement .delivery_info {}
+main .product_info_container .change_content .announcement .change_info {}
+main .product_info_container .change_content .announcement h4 {font-size:1.25rem; margin-bottom:30px; clear:both;}
+main .product_info_container .change_content .announcement dl {}
+main .product_info_container .change_content .announcement dl dt {
+
+}
+main .product_info_container .change_content .announcement dl dd {
+
+}
+footer {}
