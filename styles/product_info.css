@@ -55,13 +55,16 @@ main .product_container .product_right .product_buy_wrap .user_order .user_num {
     display:flex; align-items:center; justify-content:space-between;
     background:#f9f9f9;
 }
-main .product_container .product_right .product_buy_wrap .user_order .user_num .count_btn {border:0.2px solid #000; height:25px; display:flex; align-items:center;}
+main .product_container .product_right .product_buy_wrap .user_order .user_num .count_btn {
+    border:0.2px solid #000; height:25px; display:flex; align-items:center;
+    
+}
 main .product_container .product_right .product_buy_wrap .user_order .user_num .count_btn button {width:100%; height:100%; background:#fff; padding:4px 9px;}
 main .product_container .product_right .product_buy_wrap .user_order .user_num .count_btn #minus {}
 main .product_container .product_right .product_buy_wrap .user_order .user_num .count_btn input {
-    font-size:0.75rem; height:100%; width:36px; padding:0 15px;
+    font-size:0.75rem; height:100%; width:50px; padding:0 15px;
     border-left:0.2px solid #000; border-right:0.2px solid #000;
-    display:block;
+    display:block; text-align:center;
 }
 main .product_container .product_right .product_buy_wrap .user_order .user_num .count_btn #plus {}
 main .product_container .product_right .product_buy_wrap .user_order .user_num p {font-size:1.25rem; font-weight:600;}
