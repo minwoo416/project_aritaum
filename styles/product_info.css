@@ -205,7 +205,7 @@ main .product_info_container .change_content .page_btn button {
     width:30px; height:30px;
 }
 main .product_info_container .change_content .page_btn button:first-child {color:#F0427D; border:1px solid #F0427D;}
-main .product_info_container .change_content .qna {background:red; width:1220px; margin:0 auto;}
+main .product_info_container .change_content .qna {width:1220px; margin:0 auto;}
 main .product_info_container .change_content .qna > button {}
 main .product_info_container .change_content .qna .product_qa_list {display:flex; flex-flow:column nowrap; gap:50px; clear:both;}
 main .product_info_container .change_content .qna .product_qa_list .product_wrap {
@@ -232,16 +232,33 @@ main .product_info_container .change_content .qna > button {
 }
 main .product_info_container .change_content .qna  .qa_page_btn {clear:both;}
 main .product_info_container .change_content .announcement {
-    width:1220px; margin:0 auto; background:aqua;
+    width:1220px; margin:0 auto;
 }
 main .product_info_container .change_content .announcement .delivery_info {}
 main .product_info_container .change_content .announcement .change_info {}
 main .product_info_container .change_content .announcement h4 {font-size:1.25rem; margin-bottom:30px; clear:both;}
-main .product_info_container .change_content .announcement dl {}
-main .product_info_container .change_content .announcement dl dt {
-
+main .product_info_container .change_content .announcement table {
+    border-top:1px solid #949494;
+    border-bottom:1px solid #949494;
+    width:100%;
 }
-main .product_info_container .change_content .announcement dl dd {
-
+main .product_info_container .change_content .announcement table .delivery_local {}
+main .product_info_container .change_content .announcement table .delivery_day {
+    border-top:1px solid #d9d9d9;
 }
+main .product_info_container .change_content .announcement table .delivery_day + tr {
+    border-bottom:1px solid #d9d9d9;
+}
+main .product_info_container .change_content .announcement table .delivery_price {}
+main .product_info_container .change_content .announcement table tr {padding:20px;}
+main .product_info_container .change_content .announcement table tr th {
+    width:200px; background:#F0427D; color:#fff; border-bottom:1px solid #d9d9d9;
+}
+main .product_info_container .change_content .announcement table tr td {padding:10px;}
+main .product_info_container .change_content .announcement .change_info {}
+main .product_info_container .change_content .announcement .change_info h4 {margin-top:50px;}
+main .product_info_container .change_content .announcement .change_info table {}
+main .product_info_container .change_content .announcement .change_info table tr:nth-child(8) {border-bottom:1px solid #d9d9d9;}
+main .product_info_container .change_content .announcement .change_info table tr:nth-child(13) {border-bottom:1px solid #d9d9d9;}
+main .product_info_container .change_content .announcement .change_info table tr:nth-child(20) {border-bottom:1px solid #d9d9d9;}
 footer {}
