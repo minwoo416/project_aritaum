@@ -111,7 +111,6 @@ main .product_info_container .change_content {}
 main .product_info_container .change_content .info {
     display:flex; flex-flow:column nowrap; 
     width:790px; margin:0 auto;
-    display:none;
 }
 /* ------------------------------------------------변경되는 내용들 그룹 */
 /* 상품정보 */

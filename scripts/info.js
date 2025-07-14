@@ -3,7 +3,9 @@ const minusBtn = document.querySelector('.product_buy_wrap #minus');
 const userNum = document.querySelector('.product_buy_wrap .count_btn input');//수량
 const userAllNum = document.querySelector('.product_buy_wrap .user_all_num .all_count span');//총 구매 수량
 const userPrice = document.querySelector('.product_buy_wrap .user_all_num .all_price .price_color');//총 구매 가격
-console.log(plusBtn, minusBtn, userNum, userAllNum, userPrice);
+const productBtn = document.querySelectorAll('.product_info_container .product_btn_wrap button');//제품 버튼
+const content = document.querySelectorAll('.change_content > div');
+console.log(plusBtn, minusBtn, userNum, userAllNum, userPrice, content, productBtn);
 /* +버튼 클릭 시 수량 증가 및 가격 변동 */
 //초기 값
 let num = 1;
@@ -32,4 +34,9 @@ minusBtn.addEventListener('click',()=>{
         total = num * price;
         userPrice.textContent = total.toLocaleString('ko-kr');
     }
+})
+productBtn.forEach((obj, idx)=>{
+    obj.addEventListener('click',()=>{
+        obj.style.borderBottom = '1px solid #f0427d'
+    })
 })
