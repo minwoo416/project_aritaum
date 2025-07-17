@@ -97,10 +97,10 @@ main .product_container .product_right .product_buy_wrap .user_buy_btn_wrap .use
 }
 /* 제품 정보, 리뷰등등 총 그룹 */
 main .product_info_container {}
-main .product_info_container .product_btn_wrap {background:red; width:1220px; margin:0 auto; display:flex; margin-bottom:40px;}
+main .product_info_container .product_btn_wrap {background:red; width:1220px; margin:0 auto; display:flex; margin-bottom:40px; position:sticky; top:95px;}
 main .product_info_container .product_btn_wrap button {
     padding:25px 0; background:#fff; width:305px;
-    border-bottom:1px solid #d9d9d9;
+    /* border-bottom:1px solid #d9d9d9; */
 }
 /* 버튼 모음 */
 main .product_info_container .product_btn_wrap .product_info_btn {}

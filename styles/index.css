@@ -1,5 +1,5 @@
 /* -----------------------------------------------------------------헤더 */
-header {max-width:1620px; margin:30px auto 0;}
+header {max-width:1620px; margin:30px auto 0; position:sticky; top:0; left:0; background:#fff;}
 header .top_wrap {display:flex; justify-content:space-between; align-items:center;}
 header .top_wrap h1 {}
 header .top_wrap h1 a {}
