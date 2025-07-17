@@ -3,7 +3,7 @@
 /* Tablet 1249~850 */
 @media screen and (max-width:1249px){
     /* 1행 헤더 */
-    header {max-width:1149px; margin:0 auto;}
+    header {padding:0 50px; margin:0 auto;}
     /* 2행 뉴 */
     main .new_container {max-width:1149px; margin:0 auto;}
     main .new_container h2 {font-size:1.75rem;}

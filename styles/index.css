@@ -1,5 +1,5 @@
 /* -----------------------------------------------------------------헤더 */
-header {max-width:1620px; margin:30px auto 0; position:sticky; top:0; left:0; background:#fff;}
+header {width:100%; padding:30px 150px 20px; position:sticky; top:0; left:0; background:#fff; z-index:999;}
 header .top_wrap {display:flex; justify-content:space-between; align-items:center;}
 header .top_wrap h1 {}
 header .top_wrap h1 a {}
@@ -25,7 +25,7 @@ header .bottom_wrap .menu_wrap a:hover {border-bottom:1px solid #000;}
 /* -----------------------------------------------------------------메인 */
 /* -------------------------swiper */
 main {}
-main .banner_container {margin:20px 0 80px; }
+main .banner_container {margin-bottom:80px; }
 main .banner_container .banner_wrap {display:flex;}
 main .banner_container .banner_wrap a {}
 main .banner_container .banner_wrap a:nth-child(1) {}

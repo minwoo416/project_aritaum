@@ -1,0 +1,52 @@
+html {height:100vh;}
+main {}
+main .login_container {width:500px; margin:150px auto;}
+main .login_container .login_wrap {width:400px; margin:0 auto; text-align:center;}
+main .login_container .login_wrap h2 {font-size:1.5rem; margin-bottom:20px;}
+main .login_container .login_wrap .login_content {text-align:left;}
+main .login_container .login_wrap .login_content .login_input_message_wrap {}
+main .login_container .login_wrap .login_content .login_input_message_wrap .login_input {
+    display:flex; flex-flow:column nowrap; gap:20px;
+}
+main .login_container .login_wrap .login_content .login_input_message_wrap .login_input input {
+    width:400px; padding:15px 30px;
+    font-size:0.875rem;
+    border:1px solid #F0427D; border-radius:20px;
+}
+main .login_container .login_wrap .login_content .error {margin-top:15px; font-size:0.75rem; color:#FF0000;}
+main .login_container .login_wrap .login_content > p { 
+    font-size:0.875rem; display:flex; align-items:center;
+    margin-top:10px;
+}
+main .login_container .login_wrap .login_content > p img {width:20px; margin-right:10px;}
+main .login_container .login_wrap .login_content .login_btn_wrap {
+    display:flex; gap:20px; margin:20px 0;
+}
+main .login_container .login_wrap .login_content .login_btn_wrap button {
+    padding:15px 20px; font-size:1.125rem; 
+    width:100%; border-radius:20px;
+}
+main .login_container .login_wrap .login_content .login_btn_wrap button:nth-child(1){
+    border:1px solid #F0427D;
+    color:#F0427D; background:#fff;
+}
+main .login_container .login_wrap .login_content .login_btn_wrap button:nth-child(2){
+    color:#fff; background:#F0427D;
+}
+main .login_container .login_wrap .login_content .id_pw_search {
+    display:flex; gap:20px; justify-content:center;
+    
+}
+main .login_container .login_wrap .login_content .id_pw_search a {color:#949494;}
+main .login_container .easy_login_wrap {margin-top:70px; text-align:center;}
+main .login_container .easy_login_wrap h2 {font-size:1.5rem; margin-bottom:20px;}
+main .login_container .easy_login_wrap .easy_login_content {}
+main .login_container .easy_login_wrap .easy_login_content .easy_login {
+    display:flex; justify-content:center; align-items:center;
+    gap:20px;
+}
+main .login_container .easy_login_wrap .easy_login_content .easy_login .easy {
+    display:flex; flex-flow:column nowrap; gap:10px; justify-content:center; align-items: center;
+}
+main .login_container .easy_login_wrap .easy_login_content .easy_login .easy img {width:50px;}
+main .login_container .easy_login_wrap .easy_login_content .easy_login .easy span {}
