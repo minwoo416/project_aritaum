@@ -36,7 +36,7 @@
     header .top_wrap .right_menu a:last-child {display:block;}
     header .bottom_wrap {display:none;}
     /* 배너 */
-    main .banner_container .banner_wrap a img {width:350px; height:500px;}
+    main .banner_container .banner_wrap a img {width:300px; height:300px;}
     main .banner_container .banner_btn {width:500px;}
     main .banner_container .banner_btn .swiper-scrollbar {width:500px;}
     /* 뉴 */
