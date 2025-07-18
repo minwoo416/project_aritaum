@@ -4,6 +4,11 @@
 @media screen and (max-width:1249px){
     /* 1행 헤더 */
     header {padding:0 50px; margin:0 auto;}
+    header .bottom_wrap .hidden_menu {width:150px;}
+    header .bottom_wrap .hidden_inner {
+        width:400px;
+        left:150px;
+    }
     /* 2행 뉴 */
     main .new_container {max-width:1149px; margin:0 auto;}
     main .new_container h2 {font-size:1.75rem;}
@@ -33,8 +38,11 @@
 @media screen and (max-width:849px){
     /* 1향 헤더 */
     header {max-width:799px; margin:0 auto;}
-    header .top_wrap .right_menu a:last-child {display:block;}
+    header .top_wrap .right_menu .menu {display:block;}
     header .bottom_wrap {display:none;}
+    header .bottom_wrap .hidden_container {position:none;}
+    header .top_wrap .right_menu {position:relative;}
+    header .right_menu .hidden_menu {}
     /* 배너 */
     main .banner_container .banner_wrap a img {max-width:300px; max-height:300px;}
     main .banner_container .banner_btn {max-width:500px;}

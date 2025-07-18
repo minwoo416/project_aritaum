@@ -13,12 +13,60 @@ header .top_wrap .search {
 header .top_wrap .search input {font-size:0.75rem; font-weight:300; color:#aaa;}
 header .top_wrap .search img {}
 header .top_wrap .right_menu {display:flex; gap:20px;}
-header .top_wrap .right_menu a {}
-header .top_wrap .right_menu a:last-child {display:none;}
+header .top_wrap .right_menu .hidden_container {position:relative; top:-10px; left:-35px;}
+header .top_wrap .right_menu .hidden_menu {
+    background:#fff; display:flex; flex-flow:column nowrap;
+    align-items:end;
+    width:150px; height:max-content; gap:30px;
+    position:absolute; top:50px; right:-10px;
+    padding:30px;
+    box-shadow:0px 0px 5px #aaa;
+}
+header .top_wrap .right_menu .hidden_menu > li {width:max-content;}
+header .top_wrap .right_menu .hidden_menu > li a {font-size:0.875rem}
+header .top_wrap .right_menu .hidden_menu > li .depth {}
+header .top_wrap .right_menu .hidden_menu > li .depth li {color:#fff;}
+header .top_wrap .right_menu .hidden_menu > li .depth li a {}
+header .top_wrap .right_menu .hidden_inner {
+    position:absolute; top:50px; right:140px; background:#fff; 
+    height:536px; width:300px;
+    padding:50px; color:#fff;
+    box-shadow:0px 0px 5px #aaa;
+    text-align:right;
+    
+}
+header .top_wrap .right_menu .hidden_inner button {position:absolute; top:10px; left:10px;}
+header .top_wrap .right_menu .hidden_inner .depth {display:flex; flex-flow:column wrap; gap:20px; width:100%;}
+header .top_wrap .right_menu .hidden_inner .depth li {}
+header .top_wrap .right_menu .hidden_inner .depth li a {font-size:0.875rem}
+header .top_wrap .right_menu {}
+header .top_wrap .right_menu .menu {display:none;}
 header .top_wrap .right_menu a img {}
 header .bottom_wrap {display:flex; gap:10px; align-items:center; margin-top:5px;}
 header .bottom_wrap a {}
 header .bottom_wrap a img {}
+header .bottom_wrap .hidden_container {position:relative; top:-10px; left:-35px;}
+header .bottom_wrap .hidden_menu {
+    background:#fff; display:flex; flex-flow:column nowrap;
+    width:200px; height:max-content; gap:30px;
+    position:absolute; top:27px; left:0;
+    padding:30px;
+    box-shadow:0px 0px 5px #aaa;
+}
+header .bottom_wrap .hidden_menu > li {width:max-content;}
+header .bottom_wrap .hidden_menu > li a {}
+header .bottom_wrap .hidden_menu > li .depth {}
+header .bottom_wrap .hidden_menu > li .depth li {color:#fff;}
+header .bottom_wrap .hidden_menu > li .depth li a {}
+header .bottom_wrap .hidden_inner {
+    position:absolute; top:27px; left:200px; background:#fff; 
+    height:536px; width:500px;
+    padding:50px; color:#fff;
+    box-shadow:0px 0px 5px #aaa;
+}
+header .bottom_wrap .hidden_inner button {position:absolute; top:10px; right:10px;}
+header .bottom_wrap .hidden_inner .depth {display:flex; flex-flow:column wrap; gap:20px; width:100%;}
+header .bottom_wrap .hidden_inner .depth li {}
 header .bottom_wrap .menu_wrap {display:flex; gap:30px; align-items:center;}
 header .bottom_wrap .menu_wrap a {}
 header .bottom_wrap .menu_wrap a:hover {border-bottom:1px solid #000;}
@@ -29,7 +77,7 @@ main .banner_container {margin-bottom:80px; }
 main .banner_container .banner_wrap {display:flex;}
 main .banner_container .banner_wrap a {}
 main .banner_container .banner_wrap a:nth-child(1) {}
-main .banner_container .banner_wrap a img {}
+main .banner_container .banner_wrap a img {width:100%;}
 main .banner_container .banner_btn {
     position:relative; width:1060px; height:20px;
     display:flex; align-items:center; margin:40px auto 0; flex-direction:row-reverse;
