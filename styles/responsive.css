@@ -58,3 +58,52 @@
     footer .footer_mid .footer_left {display:none;}
     footer .footer_bottom {display:none;}
 }
+/* -----------------서브 상품상세--------------------- */
+@media screen and (max-width:1249px){
+    /* 1행 */
+    main .product_container {max-width:1049px;}
+    main .product_container .product_left .big_thum {width:400px;}
+    main .product_container .product_left .small_thum_wrap {width:80px;}
+    main .product_container .product_right {max-width:500px;}
+    main .product_container .product_right .product_name h2 {font-size:1.25rem;}
+    main .product_container .product_right .product_name .price_icon_wrap .price_wrap .sale {font-size:1.125rem;}
+    main .product_container .product_right .product_name .price_icon_wrap .price_wrap .price {font-size:1.125rem;}
+    main .product_container .product_right .product_buy_wrap .user_buy_btn_wrap #gift {width:40px; height:40px;}
+    main .product_container .product_right .product_buy_wrap .user_buy_btn_wrap .user_btn_cart_buy {
+        width:410px; height:40px;
+    }
+    main .product_container .product_right .product_buy_wrap .user_buy_btn_wrap .user_btn_cart_buy button {
+        font-size:1rem;
+    }
+    /* 2행 상품정보 */
+    main .product_container {max-width:1049px;}
+    main .product_info_container .product_btn_wrap {width:750px;}
+    main .product_info_container .change_content .review {max-width:1049px;}
+    main .product_info_container .change_content .review .photo_review .photo_review_wrap a:last-child {display:none;}
+    main .product_info_container .change_content .qna {width:1049px;}
+    main .product_info_container .change_content .announcement {width:1049px;}
+    main .product_info_container .change_content .announcement table {overflow-x: auto;}
+    main .product_info_container .change_content .announcement table tr th {
+        font-size:0.875rem;
+        width:150px;
+    }
+    main .product_info_container .change_content .announcement table tr td {font-size:0.75rem;}
+}
+@media screen and (max-width:849px){
+    /* 1행 */
+    main .product_container {max-width:849px;}
+    /* 2행  상품정보 */
+    main .product_info_container .product_btn_wrap {top:63px; max-width:7500px; min-width:320px;}
+    main .product_info_container .product_btn_wrap button:last-child {display:none;}
+    main .product_container .product_left .big_thum {width:300px;}
+    main .product_container .product_right {max-width:400px;}
+    main .product_container .product_right .product_buy_wrap .user_buy_btn_wrap .user_btn_cart_buy {width:310px;}
+    main .product_info_container .change_content .info {width:500px;}
+    main .product_info_container .change_content .review {max-width:750px;}
+    main .product_info_container .change_content .review .photo_review .photo_review_wrap a:nth-child(5),
+    main .product_info_container .change_content .review .photo_review .photo_review_wrap a:nth-child(6){display:none;}
+    main .product_info_container .change_content .review .user_review .review_list .review_container .review_content {
+        width:400px;
+    }
+    main .product_info_container .change_content .qna {width:750px;}
+}
