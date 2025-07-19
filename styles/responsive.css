@@ -9,13 +9,15 @@
         width:400px;
         left:150px;
     }
+    header .top_wrap .search {width: 219px;}
+    header .top_wrap .search img {width: 20px;}
     /* 2행 뉴 */
     main .new_container {max-width:1149px; margin:0 auto;}
     main .new_container h2 {font-size:1.75rem;}
     main .new_container .new_category_more ul .active1 button {font-size:1.125rem !important;}
     main .new_container .new_product_container .new_product_all_wrap .new_product_wrap .new_product:nth-child(5),
     main .new_container .new_product_container .new_product_all_wrap .new_product_wrap .new_product:nth-child(6) {display:none;}
-    main .arrow_wrap {display:none;}
+    main .new_container .arrow_wrap {display:none;}
     main .arrow_wrap * {display:none;}
     main .banner_container .banner_btn .arrow_wrap .swiper-pagination {display:none;}
     /* 3행 이벤트 */
@@ -26,6 +28,7 @@
     main .category_container {max-width:1149px; margin:0 auto;}
     main .category_container h2 {font-size:1.75rem;}
     main .category_container .cate_category_more ul .active2 button {font-size:1.125rem !important;}
+    main .category_container .arrow_wrap {display:none;}
     main .category_container .cate_product_container .cate_product_all_wrap .cate_product_wrap .cate_product:nth-child(5),
     main .category_container .cate_product_container .cate_product_all_wrap .cate_product_wrap .cate_product:nth-child(6) {display:none;}
     /* 5행 브랜드 */
@@ -43,6 +46,9 @@
     header .bottom_wrap .hidden_container {position:none;}
     header .top_wrap .right_menu {position:relative;}
     header .right_menu .hidden_menu {}
+    header .top_wrap .search {width: 119px;}
+    header .top_wrap .search img {width: 15px;}
+    
     /* 배너 */
     main .banner_container .banner_wrap a img {max-width:300px; max-height:300px;}
     main .banner_container .banner_btn {max-width:500px;}
