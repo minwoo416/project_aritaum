@@ -111,7 +111,7 @@ main .new_container {
 }
 main .new_container h2 {font-size:2rem; font-weight:500;}
 main .new_container .new_category_more {display:flex; justify-content:space-between;  margin:30px 0 40px;}
-main .new_container .new_category_more .category {display:flex; gap:40px;}
+main .new_container .new_category_more .category {display:flex; gap:40px; flex-flow:row wrap;}
 main .new_container .new_category_more .category li {}
 main .new_container .new_category_more ul .active1{
     

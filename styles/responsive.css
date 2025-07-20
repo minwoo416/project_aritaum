@@ -56,6 +56,8 @@
     /* 뉴 */
     main .new_container {max-width:799px; margin:0 auto;}
     main .new_container h2 {font-size:1.563rem;}
+    main .new_container .new_category_more ul .active1 button {font-size:1rem !important;}
+    main .new_container .new_category_more .category li button {font-size:0.75rem;}
     main .new_container .new_product_container .new_product_all_wrap .new_product_wrap .new_product:nth-child(4) {display:none;}
     /* 이벤트 */
     main .month_benefit .month_container {}
@@ -63,7 +65,9 @@
     main .month_benefit .month_container .month_left {display:none;}
     /* 카테고리 */
     main .category_container {max-width:799px; margin:0 auto;}
-    main .category_container h2 {font-size:1.75rem;}
+    main .category_container h2 {font-size:1.563rem;}
+    main .category_container .cate_category_more ul .active2 button {font-size:1rem !important;}
+    main .category_container .cate_category_more .category li button {font-size:0.75rem;}
     main .category_container .cate_product_container .cate_product_all_wrap .cate_product_wrap .cate_product:nth-child(4) {display:none;}
     main .category_container .cate_category_more .category {display:flex; flex-flow:row wrap; gap:40px;}
     /* 브랜드 */
