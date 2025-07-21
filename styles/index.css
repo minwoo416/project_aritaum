@@ -105,7 +105,7 @@ main .banner_container .banner_btn .arrow_wrap .swiper-button-prev img {}
 /* -------------------------2행 신제품 */
 main .new_container {
     max-width:1620px; min-width:320px;
-    margin:0 auto;
+    margin:0 auto 80px;
     /* 좌우 스와이퍼 부모 설정 */
     position:relative;
 }
