@@ -102,6 +102,15 @@ main .banner_container .banner_btn .arrow_wrap .swiper-button-next img {display:
 main .banner_container .banner_btn .arrow_wrap .swiper-button-prev {}
 main .banner_container .banner_btn .arrow_wrap .swiper-button-prev:after {display:none !important;}
 main .banner_container .banner_btn .arrow_wrap .swiper-button-prev img {}
+main .banner_container .search {
+    width:319px; height:40px; border:1px solid #F0427D; margin:0 auto;
+    display:flex; align-items:center; justify-content:space-between;
+    padding:13px 20px;
+    border-radius:50px;
+    display:none;
+}
+main .banner_container .search input {font-size:0.75rem; font-weight:300; color:#aaa; width:100%;}
+main .banner_container .search img {}
 /* -------------------------2행 신제품 */
 main .new_container {
     max-width:1620px; min-width:320px;
