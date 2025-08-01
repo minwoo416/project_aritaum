@@ -5,7 +5,7 @@ main .product_container .product_left .big_thum {margin-bottom:20px; width:550px
 main .product_container .product_left .big_thum img {display:block; border:1px solid #d9d9d9; width:100%;}
 main .product_container .product_left .small_thum_wrap {display:flex;  gap:10px; width:100px;}
 main .product_container .product_left .small_thum_wrap img {display:block; border:1px solid #d9d9d9; width:100%;}
-main .product_container .product_right {width:620px;}
+main .product_container .product_right {max-width:620px;}
 main .product_container .product_right .product_name {padding-bottom:30px; border-bottom:1px solid #d9d9d9;}
 main .product_container .product_right .product_name a {font-size:0.75rem; color:#aaa;}
 main .product_container .product_right .product_name a img {margin-left:2px;}
@@ -121,7 +121,7 @@ main .product_info_container .product_btn_wrap .product_as_btn {}
 main .product_info_container .change_content {}
 main .product_info_container .change_content .info {
     display:flex; flex-flow:column nowrap; 
-    width:790px; margin:0 auto;
+    max-width:790px; margin:0 auto;
 }
 /* ------------------------------------------------변경되는 내용들 그룹 */
 /* 상품정보 */

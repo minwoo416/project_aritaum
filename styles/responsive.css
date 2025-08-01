@@ -114,16 +114,17 @@
     /* 1행 */
     main .product_container {max-width:750px; display:flex; flex-flow:column nowrap; align-items:center;}
     /* 2행  상품정보 */
-    main .product_info_container .product_btn_wrap {top:63px; max-width:750px; min-width:320px;}
+    main .product_info_container .product_btn_wrap {top:63px; max-width:750px; min-width:300px;}
     main .product_info_container .product_btn_wrap button:last-child {display:none;}
     main .product_container .product_left {display:flex;}
     main .product_container .product_left .big_thum {max-width:200px;}
     main .product_container .product_left .small_thum_wrap {display:flex; flex-direction: column; margin-left:10px;}
     main .product_container .product_left .small_thum_wrap img {width:60px; height:60px;}
-    main .product_container .product_right {max-width:400px;}
+    main .product_container .product_right {width:100%;}
     main .product_container .product_right .product_buy_wrap .user_buy_btn_wrap .user_btn_cart_buy {max-width:310px;}
     main .product_container .product_right .product_name h2 {font-size:1.125rem;}
     main .product_container .product_right .product_benefit {display:none;}
+    main .product_container .product_right .product_buy_wrap .user_order .user_all_num {padding: 0 20px;}
     main .product_container .product_right .product_buy_wrap .user_order .user_num {margin-top:30px;}
     main .product_info_container .product_btn_wrap {width:100%;}
     main .product_info_container .change_content {width:100%;}
